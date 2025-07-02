@@ -1,0 +1,14 @@
+.google-searchbar{
+    margin-left: 50px;
+    padding-right: 170px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.normal-searchbar{
+    margin-bottom: 50px;
+}
