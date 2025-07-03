@@ -1,0 +1,13 @@
+.prof-pic{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 90px;
+    border-color: red;
+    border-width: 5px;
+}
+
+.text{
+    margin-left: 100px;
+    vertical-align: top;
+}
