@@ -1,0 +1,38 @@
+.request-box{
+    display: inline-block;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.prof-pic{
+    width: 150px;
+    height: 120px;
+}
+.name-tag{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+
+.friends-tag{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-top: 0;
+    margin-left: 10px;
+
+}
+
+.add-button{
+    background-color: rgb(86, 86, 253);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border: none;
+    margin-left: 10px;
+}
