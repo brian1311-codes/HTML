@@ -1,5 +1,5 @@
 .thumbnail-one{
-    width: 300px;
+    width: 100%;
     margin-bottom: 0;
     
 }
@@ -45,7 +45,8 @@
 }
 
 .video-thumbnail{
-    display: block;
+    width: 100%;
+    row-gap: 140px;
 }
 
 .video-description{
@@ -74,4 +75,9 @@
     display: inline-block;
     width: 250px;
     margin-top: 10px;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
