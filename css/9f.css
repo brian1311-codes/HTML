@@ -1,17 +1,28 @@
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:150px 150px 150px;
+    column-gap: 20px;
 }
 
 .request-box{
     display: inline-block;
     padding-bottom: 10px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    width: 150px;
+    
 }
 
 .prof-pic{
     width: 150px;
     height: 120px;
+    padding: 10px 10px 10px 10px;
+    
+    
+}
+
+.thumbnail-one{
+    width: 150px;
+    height: 135px;
 }
 .name-tag{
     font-family: Arial, Helvetica, sans-serif;
