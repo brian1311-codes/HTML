@@ -39,6 +39,7 @@
     display: inline-block;
     margin-right: 8px;
     vertical-align: top;
+    flex: 1;
 }
 
 .video-thumbnail{
@@ -75,6 +76,6 @@
 }
 
 .video-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
 }
