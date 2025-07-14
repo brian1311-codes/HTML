@@ -1,0 +1,9 @@
+.container{
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+}
+
+.request-box{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: grey;
+}
