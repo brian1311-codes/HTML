@@ -4,10 +4,7 @@ body{
     
 }
 
-.header{
-    display: flex;
-    flex-direction: row;
-}
+
 
 .left-section{
     background-color: lightblue;
@@ -18,6 +15,7 @@ body{
     background-color: lightpink;
     flex: 1;
     margin-left: 70px;
+    max-width: 500px;
 }
 
 .right-section{
