@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            flex-direction: row;
+            height: 80px;
+            flex: 1;
+        }
+
+        .left{
+            background-color: pink;
+            height: 80px;
+            width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .right{
+            background-color: lightblue;
+            height: 80px;
+            width: 200px;
+            
+        }
+
+        .part-part{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .part-two{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            
+        </div>
+        <div class="right">
+            <div class="part-one">row</div>
+            <div class="part-part">
+                <div class="part-two">row</div>
+                <div class="part-two">row</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
