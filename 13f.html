@@ -4,6 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.12), 0 1.5px 4px rgba(0,0,0,0.08);
+            max-width: 400px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 15px;
+            padding-top: 10px;
+        }
+        
+        .profile-picture-container{
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+            padding-top: 0;
+            vertical-align: top;
+        }
+
+        .profile-picture{
+            width: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            
+        }
+
+        .header{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .profile-name{
+            font-weight: bold;
+            font-size: 1em;
+            margin-right: 5px;
+        }
+
+        .cap-profile-name{
+            font-weight: normal;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        .description{
+            font-size: 15px;
+            color: #000000;
+            margin-top: 5px;
+        }
+
+        .video-link-container{
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+            align-items: center;
+            max-width: 350px;
+            border: solid;
+            border-radius: 12px;
+            border-color: #555;
+            border-width: 2px;
+            background-color: #555;
+            overflow: auto;
+        }
+
+        .thumbnail{
+            width: 80px;
+            height: 65px;
+            background: #ccc;
+            display: block;
+        }
+
+        .youtube-link{
+            display: flex;
+            flex-direction: column;
+            padding: 5px 10px;
+            color: black;
+            background-color: white;
+            border-radius: 0 8px 8px 0;
+            border-left: 2px solid #bbb;
+            min-height: 55px;
+            justify-content: center;
+        }
+
+        .hyperlink{
+            color: #969595;
+        }
+    </style>
 </head>
 <body>
     <div class="container">

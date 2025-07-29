@@ -44,11 +44,11 @@
 
 .video-thumbnail{
     width: 100%;
-    row-gap: 140px;
 }
 
 .video-description{
-    display: block;
+    display: flex;
+    flex-direction: row;
 }
 
 .channel-photo{
@@ -78,4 +78,6 @@
 .video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
 }
