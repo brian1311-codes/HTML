@@ -1,7 +1,7 @@
 body{
     margin: 0;
-    padding-top: 60px;   /* Adjust padding to avoid content being hidden behind fixed header */
-    padding-left: 60px;  /* Adjust padding to avoid content being hidden behind fixed sidebar */
+    padding-top: 70px;   /* Adjust padding to avoid content being hidden behind fixed header */
+    padding-left: 70px;  /* Adjust padding to avoid content being hidden behind fixed sidebar */
     
 }
 

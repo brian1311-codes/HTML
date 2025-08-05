@@ -1,7 +1,21 @@
 .sidebar{
+    background-color: aqua;
+
     position: fixed;
-    top: 50px;
+    top: 60px;
     bottom: 0;
     left: 0;
-    background-color: white;
+    width: 72px;
+    
+}
+
+.sidebar-link{
+    background-color: rgb(147, 142, 142);
+    height: 75px;
+    margin-bottom: 1px;
+ 
+}
+
+.sidebar-link:hover{
+    background-color: rgb(249, 239, 239);
 }
